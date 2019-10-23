@@ -1,0 +1,58 @@
+if (boolean-expression)
+{
+
+}
+so if the boolean expression evaluates to true, the if loop will execute;
+if the boolean expression is false, the curly brackets following the if statement will be skipped;
+if (boolean expression)
+{
+
+}
+else
+{
+
+}
+if boolean expression is false, then else is executed;
+if {}
+else if {}
+else if {}
+else if {}
+else {}
+
+if{}
+if{}
+if{}
+else{}
+else only binds to nearest if
+
+int x = GetInt();
+switch (x)
+{
+  case 1:
+    printf("One\n");
+    break;
+  case 2:
+    printf("Two\n");
+    break;
+}
+This is essentially if x = 1 do case 1 etc.
+If breaks are omitted, it will continue to run the code folowing ie:
+One
+Two
+This can be useful, but usually breaks will be used.
+
+int x;
+if (expr)
+{
+  x = 5;
+}
+else
+{
+  x = 6;
+}
+can be shortened to:
+
+int x = (expr) ? 5 : 6;
+
+ie. a cute trick to replace a simple if else statement.
+    
