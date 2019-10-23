@@ -1,0 +1,19 @@
+Forever loop:
+  while (true) {}
+While true loop:
+  while (boolean-expr) {}
+  so while the boolean expression evaluates to true, the loop will execute;
+do while loop:
+  do {} while (boolean-expr);
+  does it at least once and then does the while
+for loop:
+  useful for repeating something a specific number of times
+  
+  for (int i = 0; i < 10; i++) {}
+  for (start; expr; increment) {}
+  increments until 
+  
+while: use when you want a loop to repeat an unkown number of times and possibly not at all.
+       Useful for games when you don't know when the user will stop;
+do-while: Use when you want to repeat an unknown number of times but at least once;
+for loop: Wants to run a specific number of times, but not known initially;
