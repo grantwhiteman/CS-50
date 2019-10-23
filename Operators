@@ -1,0 +1,30 @@
+Operators:
+
+  Arithmetic:
+    add +, subtract -, multiply *, divide /;
+    modulus operator % gives us remainder;
+    int m = 13 % 4 //m is now 1;
+    
+    Shorthand:
+      x *= 5;
+      incrementing a variable:
+        x++;
+        x--;
+  Boolean expressions:
+    used for comparing values;
+    takes values of true or false;
+    Often used with if or while statements
+    Every non-zero value has a value true or false
+    0 is false, everything else is true!
+    
+    Split up into logical operators and relational operators
+      Logical AND (x && y);
+        only true if both x and y are true
+      Logical OR (x || y);
+        true if either x or y is true
+      Logical NOT (!);
+        inverts true/false to false/true
+      Relational comparisons (x < y); (x <= y); (x > y); etc.;
+      Relational equality/inequality (x ==y); (x != y);
+  
+      
