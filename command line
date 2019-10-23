@@ -1,0 +1,34 @@
+CS50 IDE runs Ubuntu, one of the many flavors of Linux OS
+UNIX commands (linux and mac)
+ls = lists contents of current directory
+  green = executable, black = text files, blue = folders
+cd <directory> = changes directory to whatever
+  current dirrectory shorthand is '.'
+  parent directory shorthand is '..'
+  pwd (poresent working directory) will tell you your current directory
+  mkdir <foldername> creates folder in current directory
+  cp <source> <destination> copies a file to a destination name, can't work with folders (folder and name or just folder?)
+  rm <file>
+  rm -f forces removal of file (ie. doesnt ask if you're sure you want to delete it)
+  rm -r  recursively deletes a directory
+  mv <source> <destination> moves a file, essentially renaming it
+  
+  if we want to go in 'pset1' for example
+  cd pset1 (this can only go forward)
+  cd . does nothing
+  cd .. goes backward one level
+  cd      goes backward to start
+  cd ../..  goes backward twice
+  if you're lost
+  type pwd
+  cp hello.txt hi.txt
+  rm hi.txt
+  
+  cp -r pset0 pset3 (-r means recursive, copies entire directory, including contents)
+  rm -r pset3 (deletes entire folder)
+  rm -rf pset3 (recursively forcably deletes a folder)
+  
+  
+  
+  
+  
